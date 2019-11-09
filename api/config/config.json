@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "anukula_coder",
+    "password": "R)GPa4Sc}Y1y",
+    "database": "anukula_pure_code",
+    "host": "104.237.136.127",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "anukula_coder",
+    "password": "R)GPa4Sc}Y1y",
+    "database": "anukula_pure_code",
+    "host": "104.237.136.127",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "anukula_coder",
+    "password": "R)GPa4Sc}Y1y",
+    "database": "anukula_pure_code",
+    "host": "104.237.136.127",
+    "dialect": "mysql"
+  }
+}

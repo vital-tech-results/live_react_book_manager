@@ -1,0 +1,6 @@
+/ignore
+/client/node_modules
+/api/node_modules
+/api/fsjstd-restapi
+/api/fsjstd-restapi.db
+/api/RESTAPI.postman_collection.json
