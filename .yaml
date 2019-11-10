@@ -1,0 +1,60 @@
+version: 1.0
+env:
+  variables:
+      key: value
+backend:
+  phases:
+    preBuild:
+      commands:
+        - cd api
+        - npm install
+    build:
+      commands:
+        - cd api
+        - npm start
+    postBuild:
+        commands:
+        - *enter command*
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd client
+        - npm install
+    build:
+      commands:
+        - yarn build
+  artifacts:
+    files:
+        - location
+        - location
+    discard-paths: yes
+    baseDirectory: build
+  cache:
+    paths:
+        - path
+        - path
+  customHeaders:
+   - pattern: 'file-pattern'
+     headers:
+     - key: 'custom-header-name'
+       value: 'custom-header-value'
+     - key: 'custom-header-name'
+       value: 'custom-header-value'
+test:
+  phases:
+    preTest:
+      commands:
+        - *enter command*
+    test:
+      commands:
+        - *enter command*
+    postTest:
+      commands:
+        - *enter command*
+  artifacts:
+    files:
+        - location
+        - location
+    configFilePath: *location*
+    baseDirectory: *location*
