@@ -1,6 +1,7 @@
 # Full stack React app using REST API with Express and Sequelize
 
 * Using AWS amplify to host React app
+* Host on remote shared server
 
 ## Technologies used
 
